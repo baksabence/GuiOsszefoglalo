@@ -167,7 +167,7 @@ public class BeallitasokMenu extends javax.swing.JFrame {
         cmbTextMin.setSelectedIndex(1);
         getContentPane().add(cmbTextMin, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 310, -1, 30));
 
-        HATTER.setIcon(new javax.swing.ImageIcon("D:\\MinecraftGameHatter.jpg")); // NOI18N
+        HATTER.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/MinecraftGameHatter.jpg"))); // NOI18N
         HATTER.setText("jLabel1");
         getContentPane().add(HATTER, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 360));
 

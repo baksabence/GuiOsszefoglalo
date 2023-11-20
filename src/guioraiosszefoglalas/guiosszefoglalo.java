@@ -106,7 +106,7 @@ public class guiosszefoglalo extends javax.swing.JFrame {
         });
         getContentPane().add(btnKilepes, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 230, 120, 30));
 
-        lblHatterkep.setIcon(new javax.swing.ImageIcon("D:\\SULI\\vizualisprog\\GuiOsszefoglalo\\GuiOsszefoglalo\\src\\guioraiosszefoglalas\\gui.gif")); // NOI18N
+        lblHatterkep.setIcon(new javax.swing.ImageIcon(getClass().getResource("/guioraiosszefoglalas/gui.gif"))); // NOI18N
         lblHatterkep.setText("jLabel4");
         getContentPane().add(lblHatterkep, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, -1));
 

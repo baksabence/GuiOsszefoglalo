@@ -104,7 +104,7 @@ public class EgyjatekosM extends javax.swing.JFrame {
         lblVilagTipusa.setText("Világ Típusa:");
         getContentPane().add(lblVilagTipusa, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 200, -1, -1));
 
-        HATTER.setIcon(new javax.swing.ImageIcon("D:\\MinecraftGameHatter.jpg")); // NOI18N
+        HATTER.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/MinecraftGameHatter.jpg"))); // NOI18N
         HATTER.setText("jLabel2");
         getContentPane().add(HATTER, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 729, -1));
 
